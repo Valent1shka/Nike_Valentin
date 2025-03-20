@@ -116,6 +116,7 @@ header{
     font-size: 24px;
     border-radius: 10px;
     margin-bottom: 183px;
+    cursor:pointer;
 }
 
 .premium-quality{
@@ -185,24 +186,23 @@ header{
 
 .reviews-li{
     width: 255px;
-    height: 292px;
 }
 
-.reviews-artcl-1{
+.reviews-li:nth-child(1){
     box-shadow: 0 14px 0 -5px #7b54b2, 0 30px 0 -13px #533978;
     background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
     padding: 49px 14px 29px 13px;
     border-radius: 15px;
 }
 
-.reviews-artcl-2{
+.reviews-li:nth-child(2){
     box-shadow: 0 14px 0 -5px #9159b1, 0 30px 0 -13px #61337c;
     background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
     padding: 49px 14px 29px 13px;
     border-radius: 15px;
 }
 
-.reviews-artcl-3{
+.reviews-li:nth-child(3){
     box-shadow: 0 14px 0 -5px #b95a4c, 0 30px 0 -13px #732f26;
     background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
     padding: 49px 14px 29px 13px;
@@ -295,6 +295,7 @@ form{
     margin: 0 auto;
     display: block;
     margin-top: 19px;
+    cursor:pointer;
 }
 
 .btn-:hover {
